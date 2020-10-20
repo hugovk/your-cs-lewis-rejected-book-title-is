@@ -1,9 +1,26 @@
-# WeirdAllergies
-A generator of weird and unusual allergies.
+# Your open source software project name is
 
-It uses a grammar implemented in [Tracery](http://tracery.io/). You can count the number of possible outcomes using [TraceryCounter](https://github.com/rfdj/TraceryCounter).
+> Your open source software project name is:
+>
+> 1) a Greek/Roman deity
+> 2) Obscure mid-century European author
+> 3) Something related to outer space
+> 4) Atmospheric weather phenomenon
+> 5) Quirky animal
+>
+> Sorry, I don't make the rules.
 
-Current count: `314251574 traces`
+[Vicki Boykis, Oct 20, 2020](https://twitter.com/vboykis/status/1318350883684495361)
 
-# Demo
-Demo here: [WeirdAllergies](https://ruuddejong.name/weirdallergies/)
+## Generator
+
+* https://hugovk.github.io/your-open-source-software-project-name-is/
+
+## Credits
+
+Thanks to
+[Kate Compton's Tracery](https://github.com/galaxykate/tracery),
+[Darius Kazemi's Corpora](https://github.com/dariusk/corpora),
+[Ruud de Jong's WeirdAllergies](https://github.com/rfdj/WeirdAllergies)
+and
+[Vicki Boykis's tweet](https://twitter.com/vboykis/status/1318350883684495361).
