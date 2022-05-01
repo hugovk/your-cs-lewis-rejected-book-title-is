@@ -1,62 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Your open source software project name is</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/minireset.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/lib/tracery.js"></script>
     <script src="js/grammar.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="content">
-            <h1>Your open source software project name is<a
-            href="https://github.com/hugovk/your-open-source-software-project-name-is/blob/master/README.md">*</a></h1>
-        </div>
+      <div class="content">
+        <h1>
+          Your open source software project name is<a
+            href="https://github.com/hugovk/your-open-source-software-project-name-is/blob/master/README.md"
+            >*</a
+          >
+        </h1>
+      </div>
     </header>
     <div class="content main">
-        <div id="result">
-            <p id="text"></p>
-        </div>
-        <button type="button" id="refreshBtn">New</button>
-        <span class="hint">(spacebar)</span>
+      <div id="result">
+        <p id="text"></p>
+      </div>
+      <button type="button" id="refreshBtn">New</button>
+      <span class="hint">(spacebar)</span>
     </div>
 
     <script type="text/javascript">
-        var grammar = tracery.createGrammar(grammarData);
+      var grammar = tracery.createGrammar(grammarData);
 
-        function capitalize(string) {
-            return string.charAt(0).toUpperCase() + string.slice(1);
-        }
+      function capitalize(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
 
-        /**
-         * Generate a new text and avatar.
-         */
-        function refresh() {
-            var resultsDiv = document.getElementById('text');
-            var sentence = grammar.createFlattened();
-            resultsDiv.innerText = sentence;
-        }
+      /**
+       * Generate a new text and avatar.
+       */
+      function refresh() {
+        var resultsDiv = document.getElementById("text");
+        var sentence = grammar.createFlattened();
+        resultsDiv.innerText = sentence;
+      }
 
-        // Enable button click
-        document.getElementById('refreshBtn').addEventListener('click', function(e) {
-            e.preventDefault();
-            refresh();
-        });
-
-        // Spacebar
-        document.body.onkeyup = function(e) {
-            if (e.keyCode == 32) {
-                refresh();
-            }
-        }
-
+      // Enable button click
+      document.getElementById("refreshBtn").addEventListener("click", function (e) {
+        e.preventDefault();
         refresh();
-    </script>
-</body>
+      });
 
+      // Spacebar
+      document.body.onkeyup = function (e) {
+        if (e.keyCode == 32) {
+          refresh();
+        }
+      };
+
+      refresh();
+    </script>
+  </body>
 </html>

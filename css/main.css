@@ -1,114 +1,114 @@
-@import url('https://fonts.googleapis.com/css?family=Slabo&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Slabo&display=swap");
 
-/*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
-html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
-/* MAIN */
 html {
-    font-size: calc((1em + 1vw)/2.2);
-    font-family: sans-serif;
-    color: #333;
+  font-size: calc((1em + 1vw) / 2.2);
+  font-family: sans-serif;
+  color: #333;
 }
 .content {
-    position: relative;
-    max-width: 90vw;
-    margin: 0 auto;
+  position: relative;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 header {
-    display: block;
-    height: 6rem;
-    border-bottom: 5px solid #DDD;
+  display: block;
+  height: 6rem;
+  border-bottom: 5px solid #ddd;
 }
 h1 {
-    position: absolute;
-    bottom: -7rem;
-    line-height: 5rem;
-    font-size: 4rem;
-    font-weight: 600;
+  position: absolute;
+  bottom: -7rem;
+  line-height: 5rem;
+  font-size: 4rem;
+  font-weight: 600;
 }
 h1 a {
-        text-decoration-line: none;
+  text-decoration-line: none;
 }
 .main {
-    padding-top:20vh;
-    font-family: "Slabo";
-    font-size: 8rem;
+  padding-top: 20vh;
+  font-family: "Slabo";
+  font-size: 8rem;
 }
 #result {
-    position: relative;
-    min-height: 20rem;
-    background-color: #EEE;
-    padding: 1rem 2rem;
-    border-radius: 5px;
+  position: relative;
+  min-height: 20rem;
+  background-color: #eee;
+  padding: 1rem 2rem;
+  border-radius: 5px;
 }
 #result p {
-    margin-bottom: 5rem;
-    hyphens: auto;
+  margin-bottom: 5rem;
+  hyphens: auto;
 }
 button {
-    width: 10rem;
-    margin: 2rem 0 0.5rem 0;
-    padding: 1rem 3rem;
-    background-color: #3A3;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    font-size: 1.5rem;
-    color: #FFF;
+  width: 10rem;
+  margin: 2rem 0 0.5rem 0;
+  padding: 1rem 3rem;
+  background-color: #3a3;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.5rem;
+  color: #fff;
 }
 button:hover {
-    background-color: #292;
-    cursor: pointer;
+  background-color: #292;
+  cursor: pointer;
 }
 .hint {
-    display: block;
-    width: 10rem;
-    height: 1rem;
-    text-align: center;
-    font-size: 1rem;
-    color: #AAA;
+  display: block;
+  width: 10rem;
+  height: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #aaa;
 }
-@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-    header {
-        height: 14rem;
-    }
-    h1 {
-        bottom: -15rem;
-    }
-    .main {
-        padding-top:4vh;
-    }
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  header {
+    height: 14rem;
+  }
+  h1 {
+    bottom: -15rem;
+  }
+  .main {
+    padding-top: 4vh;
+  }
 }
-@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-    header {
-        height: 9rem;
-    }
-    h1 {
-        bottom: -10rem;
-    }
-    .main {
-        padding-top:4vh;
-    }
-    #result {
-        min-height: 0;
-    }
-    #result p {
-        margin-bottom: 0;
-    }
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  header {
+    height: 9rem;
+  }
+  h1 {
+    bottom: -10rem;
+  }
+  .main {
+    padding-top: 4vh;
+  }
+  #result {
+    min-height: 0;
+  }
+  #result p {
+    margin-bottom: 0;
+  }
 }
-@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-    header {
-        height: 6rem;
-    }
-    h1 {
-        bottom: -7rem;
-    }
-    .main {
-        padding-top:20vh;
-    }
-    #result {
-        min-height: 20rem;
-    }
-    #result p {
-        margin-bottom: 5rem;
-    }
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  header {
+    height: 6rem;
+  }
+  h1 {
+    bottom: -7rem;
+  }
+  .main {
+    padding-top: 20vh;
+  }
+  #result {
+    min-height: 20rem;
+  }
+  #result p {
+    margin-bottom: 5rem;
+  }
 }
