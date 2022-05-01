@@ -1,24 +1,20 @@
-# Your open source software project name is
+# Your CS Lewis rejected book title is
 
-> Your open source software project name is:
->
-> 1. a Greek/Roman deity
-> 2. Obscure mid-century European author
-> 3. Something related to outer space
-> 4. Atmospheric weather phenomenon
-> 5. Quirky animal
->
-> Sorry, I don't make the rules.
+Inspired by Tom Gauld on the titles CS Lewis tried before choosing _The Lion, the witch
+and the Wardrobe_.
 
-[Vicki Boykis, Oct 20, 2020](https://twitter.com/vboykis/status/1318350883684495361)
+[https://www.theguardian.com/books/picture/2022/apr/30/tom-gauld-on-the-titles-cs-lewis-tried-before-choosing-the-lion-the-witch-and-the-wardrobe-cartoon](https://www.theguardian.com/books/picture/2022/apr/30/tom-gauld-on-the-titles-cs-lewis-tried-before-choosing-the-lion-the-witch-and-the-wardrobe-cartoon)
 
 ## Generator
 
-- https://hugovk.github.io/your-open-source-software-project-name-is/
+- https://hugovk.github.io/your-rejected-cs-lewis-book-title-is/
 
 ## Credits
 
 Thanks to [Kate Compton's Tracery](https://github.com/galaxykate/tracery),
 [Darius Kazemi's Corpora](https://github.com/dariusk/corpora),
 [Ruud de Jong's WeirdAllergies](https://github.com/rfdj/WeirdAllergies) and
-[Vicki Boykis's tweet](https://twitter.com/vboykis/status/1318350883684495361).
+[Tom Gauld's comic](https://www.theguardian.com/books/picture/2022/apr/30/tom-gauld-on-the-titles-cs-lewis-tried-before-choosing-the-lion-the-witch-and-the-wardrobe-cartoon).
+
+See also
+[Your open source software project name is](https://hugovk.github.io/your-open-source-software-project-name-is/).
